@@ -20,7 +20,7 @@ function HomeCarousel(props) {
   ];
 
   return (
-    <Carousel>
+    <Carousel indicators={false}>
       {items.map((item, i) => (
         <Item key={i} item={item} />
       ))}

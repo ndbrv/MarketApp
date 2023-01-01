@@ -3,6 +3,7 @@ import './App.css';
 import HomeCarousel from './components/HomeCarousel.tsx';
 import Navbar from './components/Navbar.tsx';
 import CategoryCard from './components/CategoryCard.tsx';
+import CardRow from './components/CardRow.tsx';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <HomeCarousel></HomeCarousel>
+      <CardRow></CardRow>
       
       
     </div>
